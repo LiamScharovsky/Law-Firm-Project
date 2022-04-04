@@ -1,0 +1,111 @@
+body{
+    background-size:cover ;
+}
+#whiteBack{
+    background-color: white;
+    height: 95%;
+}
+
+#title{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#registerButton{
+    background-color: #cfcccce7;
+    font-size: small;
+    color: black;
+}
+
+#navBarList{
+    font-size: 0.93rem;
+    font-weight: 600;
+    
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: small;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+@media only screen and (min-width: 750px) {
+ 
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar .navbar-nav {
+    border-bottom: 2px solid #000;
+  }
+  .navbar .nav-item {
+    padding: 0.5em 1em;
+  }
+}
+.navbar .navbar-nav {
+  margin-top: 0.5em;
+  border-top: 2px solid #000;
+}
+
+li{
+    line-height: 3px;
+    border-right:1px solid lightgray;
+    
+}
+#lastNavbarItem{
+    border-right:none;
+}
+
+/* END OF HEADER */
+
+
+/* START OF WHO WE ARE LIST */
+#WhoWeAre{
+    color: white;
+    background-color: darkred;
+}
+
+/* END OF WHO WE ARE LIST */
+
+
+
+/* BEGGINING OF FOOTER */
+hr{
+    margin-top: 0;
+}
+#copyright{
+    font-size: small;
+    color: #808080;
+}
+
+
+/* CONDITIONAL */
+
+
+@media only screen and (max-width: 750px){
+    #title{
+    font-size: small;
+}
+    
+    #registerButton{
+        
+        font-size: xx-small;
+    }
+    #footerList{
+        font-size: xx-small
+    }
+    #copyright{
+    font-size: xx-small;
+}
+    p{
+        font-size: xx-small;
+    }
+    #newsFeed{
+        font-size: xx-small;
+    }
+    #bottomText{
+        font-size: xx-small;
+    }
+}
+
